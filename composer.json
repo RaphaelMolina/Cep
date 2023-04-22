@@ -1,0 +1,23 @@
+{
+    "name": "molina/cep",
+    "description": "Busca Cep Online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RaphaelMolina",
+            "email": "manson1307@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "molina\\cep\\": "src/"
+        }
+}
+}
